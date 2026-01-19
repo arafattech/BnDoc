@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "MES",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "স্মার্ট-ইন্ডাস্ট্রি লোগো",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Workflow": {
+    "message": "কাজের ধারা (Workflow)",
+    "description": "Navbar item with label Workflow"
+  },
+  "item.label.Blog": {
+    "message": "ব্লগ",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "গিটহাব",
+    "description": "Navbar item with label GitHub"
+  }
+}

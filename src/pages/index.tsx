@@ -8,6 +8,8 @@ import type { ReactNode } from 'react';
 
 import styles from './index.module.css';
 
+import Translate from '@docusaurus/Translate';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   const {customFields} = siteConfig;
@@ -15,21 +17,38 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          <Translate id="homepage.hero.title">{siteConfig.title}</Translate>
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <Translate id="homepage.hero.tagline">{siteConfig.tagline}</Translate>
+        </p>
         
         <div className={styles.metadata}>
-          <p><strong>Prepared By:</strong> {customFields.preparedBy as string}</p>
-          <p><strong>Date:</strong> {customFields.date as string}</p>
-          <p><strong>Version:</strong> {customFields.version as string}</p>
+          <p>
+            <strong>
+              <Translate id="homepage.hero.preparedByLabel">Prepared By:</Translate>
+            </strong>{' '}
+            <Translate id="homepage.hero.preparedByValue">{customFields.preparedBy as string}</Translate>
+          </p>
+          <p>
+            <strong>
+              <Translate id="homepage.hero.dateLabel">Date:</Translate>
+            </strong>{' '}
+            <Translate id="homepage.hero.dateValue">{customFields.date as string}</Translate>
+          </p>
+          <p>
+            <strong>
+              <Translate id="homepage.hero.versionLabel">Version:</Translate>
+            </strong>{' '}
+            <Translate id="homepage.hero.versionValue">{customFields.version as string}</Translate>
+          </p>
         </div>
 
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-             Get Started ⏱️
+             <Translate id="homepage.hero.button">Get Started ⏱️</Translate>
           </Link>
         </div>
       </div>

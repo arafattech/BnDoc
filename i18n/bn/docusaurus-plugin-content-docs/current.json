@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Base Data": {
+    "message": "Base Data",
+    "description": "The label for category 'Base Data' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Base Data.link.generated-index.description": {
+    "message": "Base Data Management",
+    "description": "The generated-index page description for category 'Base Data' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.HR Management": {
+    "message": "HR Management",
+    "description": "The label for category 'HR Management' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.HR Management.link.generated-index.description": {
+    "message": "Human Resource Management",
+    "description": "The generated-index page description for category 'HR Management' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sales & Marketing": {
+    "message": "Sales & Marketing",
+    "description": "The label for category 'Sales & Marketing' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sales & Marketing.link.generated-index.description": {
+    "message": "Sales & Marketing Modules",
+    "description": "The generated-index page description for category 'Sales & Marketing' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Store Management": {
+    "message": "Store Management",
+    "description": "The label for category 'Store Management' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Store Management.link.generated-index.description": {
+    "message": "Store Management",
+    "description": "The generated-index page description for category 'Store Management' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Purchase": {
+    "message": "Purchase",
+    "description": "The label for category 'Purchase' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Purchase.link.generated-index.description": {
+    "message": "Purchase Management",
+    "description": "The generated-index page description for category 'Purchase' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Production": {
+    "message": "Production",
+    "description": "The label for category 'Production' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Production.link.generated-index.description": {
+    "message": "Production Management",
+    "description": "The generated-index page description for category 'Production' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.QA & QC": {
+    "message": "QA & QC",
+    "description": "The label for category 'QA & QC' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.QA & QC.link.generated-index.description": {
+    "message": "Quality Assurance & Quality Control",
+    "description": "The generated-index page description for category 'QA & QC' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Task Management": {
+    "message": "Task Management",
+    "description": "The label for category 'Task Management' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Task Management.link.generated-index.description": {
+    "message": "Task Management",
+    "description": "The generated-index page description for category 'Task Management' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Resources": {
+    "message": "Resources",
+    "description": "The label for category 'Resources' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Resources.link.generated-index.description": {
+    "message": "Resources",
+    "description": "The generated-index page description for category 'Resources' in sidebar 'tutorialSidebar'"
+  }
+}

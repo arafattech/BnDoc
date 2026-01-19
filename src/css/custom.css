@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* Hide the globe icon in the language dropdown */
+.navbar__item--locale-dropdown > .navbar__link::before,
+[class^='iconLanguage_'] {
+  display: none !important;
+}
+

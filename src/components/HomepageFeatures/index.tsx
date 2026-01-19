@@ -1,3 +1,4 @@
+import Translate, { translate } from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import clsx from 'clsx';
 import type { ReactNode } from 'react';
@@ -11,34 +12,43 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
     {
-    title: 'Easy to Use',
+    title: translate({
+      message: 'Easy to Use',
+      id: 'homepage.features.easyToUse.title',
+    }),
     img: require('@site/static/img/data-management.png').default,
     description: (
-      <>
+      <Translate id="homepage.features.easyToUse.description">
         Built with usability in mind, our MES platform ensures a smooth
         onboarding experience for all users.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Base Data',
+    title: translate({
+      message: 'Base Data',
+      id: 'homepage.features.baseData.title',
+    }),
     img: require('@site/static/img/base-data.png').default,
     description: (
-      <>
+      <Translate id="homepage.features.baseData.description">
         Manage your core manufacturing data efficiently with our centralized
         Base Data module.
-      </>
+      </Translate>
     ),
   },
 
   {
-    title: 'Sales Analytics',
+    title: translate({
+      message: 'Sales Analytics',
+      id: 'homepage.features.salesAnalytics.title',
+    }),
     img: require('@site/static/img/sales-analytics.png').default,
     description: (
-      <>
+      <Translate id="homepage.features.salesAnalytics.description">
         Gain deep insights into your sales performance with real-time
         analytics and comprehensive dashboards.
-      </>
+      </Translate>
     ),
   },
 ];
