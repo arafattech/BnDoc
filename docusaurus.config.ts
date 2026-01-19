@@ -4,6 +4,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// npm run write-translations -- --locale bn
+
 const config: Config = {
   title: 'Manufacturing Execution System (MES)',
   tagline: 'Web-Based Software',
@@ -38,7 +40,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'bn'],
+    localeConfigs: {
+      en: {
+        label: 'EN',
+      },
+      bn: {
+        label: 'BN',
+      },
+    },
   },
 
   presets: [
@@ -99,6 +109,10 @@ const config: Config = {
           label: 'Workflow',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
