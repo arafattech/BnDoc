@@ -4,14 +4,13 @@ sidebar_position: 0
 
 # Introduction
 
-Welcome to the **Hybritech MES Documentation**. Select a module below to get started.
-
+Welcome to the **Mands IT Project Document**. Select a **Project** below to get started.
 <div className="row">
   
   <div className="col col--6 margin-bottom--lg">
     <a className="card padding--lg shadow--md" href="/docs/base-data" style={{height: '100%', textDecoration: 'none', color: 'inherit'}}>
-      <h3>📦 Base Data Management</h3>
-      <p>Manage fundamental data settings, configurations, and master data for the system.</p>
+      <h3>📦 Pos Software</h3>
+      <p> Point of Sale (POS) Software Project Document.</p>
     </a>
   </div>
 

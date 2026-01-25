@@ -7,13 +7,13 @@ import { themes as prismThemes } from 'prism-react-renderer';
 // npm run write-translations -- --locale bn
 
 const config: Config = {
-  title: 'Manufacturing Execution System (MES)',
+  title: 'Mands IT Project Document',
   tagline: 'Web-Based Software',
-  favicon: 'img/mes-logo.png',
+  favicon: 'img/mandsit-logo.png',
 
   customFields: {
-    preparedBy: 'Hybri Tech',
-    date: '13-01-2025',
+    preparedBy: 'Mands IT',
+    date: '26-01-2026',
     version: '1.0.0',
   },
 
@@ -23,7 +23,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://mesdoc.vercel.app',
+  url: 'https://mandsdoc.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -96,17 +96,17 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'MES',
+      title: 'Mands IT',
       logo: {
-        alt: 'smart-industry Logo',
-        src: 'img/mes-logo.png',
+        alt: 'mands-logo',
+        src: 'img/mandsit-logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Workflow',
+          label: 'Project Document',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -127,7 +127,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Workflow',
+              label: 'Project Document',
               to: '/docs/intro',
             },
           ],
@@ -163,7 +163,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} MES. Built with <a href="https://hybri.tech" target="_blank"> Hybri tech</a>`
+      copyright: `Copyright © ${new Date().getFullYear()} Mands IT. Built with <a href="https://mandsit.bd" target="_blank"> Mands IT</a>`
     },
     prism: {
       theme: prismThemes.github,
